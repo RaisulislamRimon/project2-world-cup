@@ -103,7 +103,17 @@ body {
   color: black;
 }
 /* main section card info & card-details */
+.main-section-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
 .card {
+  font-family: "Poppins", sans-serif;
   width: 312px;
   height: 362px;
   border: 1px solid whitesmoke;
@@ -127,14 +137,12 @@ body {
   margin-top: 20px;
 }
 .card-title {
-  font-family: "Poppins";
   font-weight: 600;
   font-size: 18px;
   margin-top: 15px;
   margin-bottom: 20px;
 }
 .card-details {
-  font-family: "Poppins";
   font-weight: 400;
   font-size: 16px;
   color: rgba(22, 22, 22, 0.7);
