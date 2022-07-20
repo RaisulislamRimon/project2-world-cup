@@ -135,19 +135,3 @@ body {
 }
 
 /* footer style  */
-.footer {
-  width: 100%;
-  /* width: 1600px; */
-  height: 444px;
-  background: #161616;
-  color: white;
-}
-.footer-title-div {
-}
-.footer-title {
-  color: white;
-  font-size: 40px;
-  background-color: black;
-  padding: 222px;
-  text-align: center;
-}
