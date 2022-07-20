@@ -3,37 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* poppins google font */
+/* poppins google font  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 body {
-  font-family: "Poppins", sans-serif;
 }
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-/* header section  */
-.header {
-  display: flex;
+/* top banner section  */
+.banner-container {
   width: 1321px;
-  background-color: #161616;
+  height: 646px;
+  background: #161616;
   border-radius: 30px;
   margin-top: 50px;
 }
-.left-header {
-  width: 50%;
+.banner-section {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.left-header-title {
-  /* font-family: "Poppins", sans-serif; */
+.banner-heading {
+  width: 531px;
+  height: 424px;
+  margin: 111px 24px 111px 106px;
+}
+.banner-title {
   font-size: 70px;
+  line-height: 80px;
   color: #ffffff;
 }
-.left-header-details {
-  color: #ffffff;
+.banner-details {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  color: #ffffff;
 }
-.right-header {
-  width: 50%;
+.banner-img {
+  width: 581px;
+  height: 613px;
+}
+.banner-img img {
+  width: 100%;
+  /* margin-top: 33px; */
 }
