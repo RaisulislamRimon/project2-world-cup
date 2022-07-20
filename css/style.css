@@ -145,5 +145,9 @@ body {
 .footer-title-div {
 }
 .footer-title {
+  color: white;
   font-size: 40px;
+  background-color: black;
+  padding: 222px;
+  text-align: center;
 }
