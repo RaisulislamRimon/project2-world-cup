@@ -38,7 +38,7 @@ body {
 }
 .banner-details {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   color: #ffffff;
   margin-bottom: 30px;
@@ -187,4 +187,67 @@ body {
 }
 .footer span {
   margin-right: 30px;
+}
+
+/* responsive css media-query  */
+
+/* small devices */
+
+@media screen and (max-width: 576px) {
+}
+/* medium devices */
+/* @media screen and (min-width: 577px) and (max-width: 992px) {
+  .banner-container{
+    width: 100%;
+  }
+  .banner-section {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-heading {
+    width: 50%;
+  } 
+  .banner-heading h1{
+    font-size: 60px;
+  }
+  .banner-details{
+    width: 40%;
+  }
+  .banner-img {
+    width: 100%;
+  }
+} */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .banner-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-section {
+    width: 100%;
+  }
+  .banner-heading {
+    width: 50%;
+  }
+  .banner-heading h1 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  .banner-details {
+    width: 100%;
+    line-height: 24px;
+  }
+  .banner-button {
+    margin-top: 40px;
+  }
+  .banner-img {
+    width: 100%;
+    margin-top: 42px;
+  }
 }
